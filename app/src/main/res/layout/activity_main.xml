@@ -10,22 +10,22 @@
         android:id="@+id/backgroundImageClouds"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:contentDescription="@string/background_image"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/clouds"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="@string/background_image" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/clouds" />
 
     <TextView
         android:id="@+id/dispalyWeather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="The weather is cloudy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="The weather is cloudy" />
 
 </android.support.constraint.ConstraintLayout>
