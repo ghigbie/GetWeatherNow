@@ -7,4 +7,4 @@
 /build
 /captures
 .externalNativeBuild
-com/georgehigbie/getweathernow2/Services/apiKey.kt
+src/main/java/com/georgehigbie/getweathernow2/Services/apiKey.kt
