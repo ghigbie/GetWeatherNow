@@ -5,4 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="displayTextColor">#000</color>
     <color name="alternateTextColor">#1b1b1b</color>
+    <color name="lightTextColor">#FFF</color>
+    <color name="buttonBackground">#aa000000</color>
+    <color name="buttonBorder">#FFF</color>
 </resources>
